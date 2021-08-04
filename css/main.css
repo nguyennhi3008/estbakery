@@ -1,0 +1,191 @@
+@charset "UTF-8";
+/* CSS Document */
+.container
+{
+    width:100%;
+    height: auto;
+    background-color: black;
+}
+.header
+{
+    width:100%;
+    height: 50px;
+    background-color: black;
+}
+.menu
+{
+    width: 1300px;
+    height: 50px;
+    background-color: black;
+    margin: auto;
+}
+.menu ul
+{
+    list-style: none;
+    
+}
+.menu ul li
+{
+    float: left;
+    width: 80px;
+    height: 50px;
+    padding: 20px 80px 20px 80px;
+    padding-top: 15px;
+    position: relative;
+    
+}
+.menu ul li a
+{
+    text-decoration: none;
+    color:white;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    
+}
+.menu ul li:hover
+{
+    background-color:  #e1a542;
+   
+}
+.menu ul li ul
+{
+    position: absolute;
+    top: 50px;
+    left: -40px;
+    visibility: hidden;
+}
+.menu ul li ul li
+{
+    width: 80px;
+    height: 30px;
+    background-color: black;
+    
+    
+}
+.menu ul li:hover ul
+{
+    visibility: visible;
+}
+.menu ul li ul li a
+{
+   padding: 0px;
+   padding-top: 30px;
+}
+.hcn01
+{
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.hcn02
+{
+    width: 20%;
+    height: 250px;
+    background-color:black;
+    float: left;
+    margin: 1%;
+   
+}
+.hcn02:hover
+{
+    background-color: #e1a542;
+}
+.iterm
+{
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.iterm1
+{
+    width: 20%;
+    height: 250px;
+    background-color:black;
+    float: left;
+    margin: 1%;
+   
+}
+.iterm1:hover
+{
+    background-color: #e1a542;
+}
+.continue
+{
+    width: 100%;
+    height: 70px;
+    background-color: #e1a542;
+    margin: auto;
+}
+.continue:hover
+{
+    background-color: dimgray;
+}
+.aboutus
+{
+    width:86%;
+    height: 600px;
+    background-color: black; 
+    display: flex;
+    align-items: center;
+    padding-left: 230px;
+}
+.aboutus1
+{
+    width:400px;
+    height: 500px;
+    background-color: gray; 
+    
+}
+.aboutus2
+{
+    width:850px;
+    height: 550px;
+    background-color: black; 
+    
+}
+.aboutus2 ul1
+{
+    list-style: none;
+    padding: 0px 100px 0px;
+    
+}
+.aboutus2 ul1 li
+{
+    font-size: 30px;
+    color: #e1a542;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    padding: 0px 40px 0px;
+}
+.aboutus2 ul
+{
+  list-style: none;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    color: white;
+    font-size: 20px;
+}
+.new1
+{
+    width:900px;
+    height: 185px;
+    background-color: black;
+    
+    display: flex;
+    margin: 0% 0% 0% 5%;
+    float: left;
+}
+.new2
+{
+    width:185px;
+    height: 185px;
+    background-color: black;
+    margin: 0% 2% 0% 0%;
+}
+.new2:hover
+{
+    background-color: dimgray;
+}
